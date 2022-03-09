@@ -15,7 +15,6 @@ html {
 
 li {
     list-style: none;
-    text-decoration: none;
 }
 
 .clearfix::after {
@@ -24,35 +23,55 @@ li {
     clear: both;
 }
 
+a {
+    text-decoration: none;
+}
+
 /* COMMON */
 .container {
     width: 70%;
     margin: 0 auto;
+    /* border: 2px solid red; */
 }
 
+.bt {
+    border-radius: 25px;
+}
+
+.bt-white {
+    background-color: white;
+}
+
+.bt-dark {}
+
+.bt-small {
+    padding: .7em 1em;
+}
+
+.bt-large {}
+
 /* HEADER */
-/* columns */
 header {
-    width: 70%;
     height: 60px;
     margin: 0 auto;
-    /* test */
-    background-color: cadetblue;
+    line-height: 60px;
+    background-color: #3161e0;
 }
+
+/* columns */
 .col-logo, .col-signin {
     width: 15%;
     float: left;
-    /* test */
-    height: 60px;
-    background-color: beige;
+}
+
+.col-logo img{
+    vertical-align: middle;
+    height: 35px;
 }
 
 .col-nav {
     width: 70%;
     float: left;
-    /* test */
-    height: 60px;
-    background-color: blue;
 }
 
 nav div {
@@ -64,4 +83,5 @@ nav div {
 header nav li {
     display: inline-block;
     margin: 0 1em;
+    color: white;
 }
