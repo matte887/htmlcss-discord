@@ -65,8 +65,17 @@ main section:nth-child(even) {
     font-size: 3em;
 }
 
+/* text */
 .text {
     font-size: 1.2em;
+}
+
+.text-blue {
+    color: #7289da;
+}
+
+.bold {
+    font-weight: bold;
 }
 
 /* HEADER */
@@ -169,3 +178,52 @@ header nav li {
 }
 
 /* FOOTER */
+footer {
+    background-color: #23272a;
+}
+
+.col-foot {
+    float:left;
+    padding-top: 5em;
+    padding-bottom: 2em;
+}
+
+.col-foot.col-small {
+    width: 15%;
+}
+
+.col-foot.col-left {
+    width: 40%;
+    padding-right: 10em;
+}
+
+footer h2 {
+    font-size: 2.5em;
+}
+
+footer li {
+    color: white;
+    line-height: 2em;
+}
+
+footer hr {
+    width: 100%;
+}
+
+.page-bottom {
+    height: 150px;
+}
+
+.page-bottom img {
+    float: left;
+    height: 35px;
+    width: auto;
+    margin-top: 2em;
+}
+
+.page-bottom a {
+    float: right;
+    background-color: #8ea1e0;
+    margin-top: 2em;
+    color: white;
+}
