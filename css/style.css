@@ -35,6 +35,10 @@ a {
     /* border: 2px solid red; */
 }
 
+main section:nth-child(even) {
+    background-color: #f6f6f6;
+}
+
 .bt {
     border-radius: 25px;
 }
@@ -138,7 +142,7 @@ header nav li {
 /* MAIN */
 /* section 1 */
 .main-section {
-    margin: 9em 0;
+    padding: 9em 0;
 }
 .col-img {
     width: 60%;
@@ -153,6 +157,10 @@ header nav li {
 
 .col-text.pad-left {
     padding-left: 7em;
+}
+
+.col-text.pad-right {
+    padding-right: 7em;
 }
 
 .col-text p{
