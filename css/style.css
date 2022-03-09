@@ -74,8 +74,17 @@ main section:nth-child(even) {
     color: #7289da;
 }
 
+.text-white {
+    color: white;
+}
+
 .bold {
     font-weight: bold;
+}
+
+/* margin */
+.mt-2 {
+    margin-top: 2em;
 }
 
 /* HEADER */
@@ -111,7 +120,6 @@ nav div {
 header nav li {
     display: inline-block;
     margin: 0 1em;
-    color: white;
 }
 
 /* JUMBOTRON */
@@ -121,7 +129,6 @@ header nav li {
     background-repeat: no-repeat;
     background-position: center;
     padding: 7em 0;
-    color: white;
 }
 
 .jumbo-content {
@@ -135,7 +142,6 @@ header nav li {
 }
 
 .jumbo-content p {
-    margin-top: 2em;
     line-height: 1.7em;
 }
 
@@ -173,7 +179,6 @@ header nav li {
 }
 
 .col-text p{
-    margin-top: 2em;
     line-height: 1.7em;
 }
 
@@ -201,13 +206,17 @@ footer h2 {
     font-size: 2.5em;
 }
 
+footer .col-left img {
+    width: 30px;
+}
+
 footer li {
     color: white;
     line-height: 2em;
 }
 
-footer hr {
-    width: 100%;
+footer .foot-cont {
+    border-bottom: 1px solid #424e70;
 }
 
 .page-bottom {
@@ -218,12 +227,9 @@ footer hr {
     float: left;
     height: 35px;
     width: auto;
-    margin-top: 2em;
 }
 
 .page-bottom a {
     float: right;
     background-color: #8ea1e0;
-    margin-top: 2em;
-    color: white;
 }
