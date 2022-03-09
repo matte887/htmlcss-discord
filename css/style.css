@@ -11,6 +11,7 @@ img {
 
 html {
     font-family: "Whitney", sans-serif;
+    font-size: 100%;
 }
 
 li {
@@ -57,7 +58,11 @@ a {
 }
 
 .title {
-    font-size: 4em;
+    font-size: 3em;
+}
+
+.text {
+    font-size: 1.2em;
 }
 
 /* HEADER */
@@ -112,6 +117,10 @@ header nav li {
     text-align: center;
 }
 
+.jumbo-content .jumbo-title {
+    font-size: 4em;
+}
+
 .jumbo-content p {
     margin-top: 2em;
     line-height: 1.7em;
@@ -120,4 +129,33 @@ header nav li {
 .jumbo-bt a {
     margin: 2em 1em;
     display: inline-block;
+}
+
+.jumbo-bt .arrow {
+    font-size: 1.2em;
+}
+
+/* MAIN */
+/* section 1 */
+.main-section {
+    margin: 9em 0;
+}
+.col-img {
+    width: 60%;
+    float: left;
+}
+
+.col-text {
+    width: 40%;
+    float: left;
+    padding: 1.7em 1.5em;
+}
+
+.col-text.pad-left {
+    padding-left: 7em;
+}
+
+.col-text p{
+    margin-top: 2em;
+    line-height: 1.7em;
 }
