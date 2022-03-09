@@ -50,12 +50,16 @@ a {
 
 .bt-large {}
 
+.title {
+    font-size: 3em;
+}
+
 /* HEADER */
 header {
     height: 60px;
     margin: 0 auto;
     line-height: 60px;
-    background-color: #3161e0;
+    background-color: #255ee9;
 }
 
 /* columns */
@@ -86,11 +90,23 @@ header nav li {
     color: white;
 }
 
+/* JUMBOTRON */
 .jumbotron {
     background-image: url(../img/jumbo.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    /* test */
-    height: 500px;
+    padding: 5em 0;
+    color: white;
+}
+
+.jumbo-content {
+    width: 40%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.jumbo-content p {
+    margin-top: 2em;
+    line-height: 1.7em;
 }
