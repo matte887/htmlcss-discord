@@ -17,3 +17,51 @@ li {
     list-style: none;
     text-decoration: none;
 }
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* COMMON */
+.container {
+    width: 70%;
+    margin: 0 auto;
+}
+
+/* HEADER */
+/* columns */
+header {
+    width: 70%;
+    height: 60px;
+    margin: 0 auto;
+    /* test */
+    background-color: cadetblue;
+}
+.col-logo, .col-signin {
+    width: 15%;
+    float: left;
+    /* test */
+    height: 60px;
+    background-color: beige;
+}
+
+.col-nav {
+    width: 70%;
+    float: left;
+    /* test */
+    height: 60px;
+    background-color: blue;
+}
+
+nav div {
+    text-align: center;
+}
+
+
+
+header nav li {
+    display: inline-block;
+    margin: 0 1em;
+}
