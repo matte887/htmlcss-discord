@@ -85,3 +85,12 @@ header nav li {
     margin: 0 1em;
     color: white;
 }
+
+.jumbotron {
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* test */
+    height: 500px;
+}
