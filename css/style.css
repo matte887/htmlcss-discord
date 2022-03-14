@@ -182,7 +182,36 @@ header nav li {
 
 .section-4 .main-section {
     text-align: center;
+    padding: 4em 0;
 }
+
+/* cta */
+.cta {
+    background-color: #f6f6f6;
+    text-align: center;
+    padding-bottom: 5em;
+}
+
+.cta h3 {
+    width: 50%;
+    margin: 0 auto;
+    padding-top: 1em;
+    font-size: 2.2em;
+    background-image: url(../img/stars.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.bt-violet {
+    background-color: #8ea1e0;
+}
+
+.bottom-bt {
+    margin: 3em auto;    
+    display: inline-block;
+}
+
 /* FOOTER */
 footer {
     background-color: #23272a;
